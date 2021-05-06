@@ -34,12 +34,12 @@ class Starter:
             self.loop.stop()
         signal.signal(signal.SIGINT, keyboard_interrupt)
 
-        logger.info("Start in \"{}\" io loop...".format(config.server_id), caller=self)
+        logger.info("Start in \"{}\" io loop...".format(config.project), caller=self)
         self.loop.run_forever()
 
     def stop(self):
         """Stop the event loop."""
-        logger.info("Stop \"{}\" io loop.".format(config.server_id), caller=self)
+        logger.info("Stop \"{}\" io loop.".format(config.project), caller=self)
         self.loop.stop()
 
     def _get_version(self):
