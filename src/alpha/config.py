@@ -58,7 +58,7 @@ class Config:
         """
         self.log = update_fields.get("LOG", {})
         self.heartbeat = update_fields.get("HEARTBEAT", {})
-
+        self.project = update_fields.get("project", "alpha")
         for k, v in update_fields.items():
             setattr(self, k, v)
 
