@@ -1,7 +1,8 @@
-#####install
+install:
 ```python
 python setup.py install
 ``` 
+run:
 ```
 cd test
 ```
