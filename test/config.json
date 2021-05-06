@@ -4,8 +4,8 @@
     "LOG": {
         "console": true,
         "level": "INFO",
-        "path": "/data/logs/servers/swap_maker_strategy",
-        "name": "swap_maker_strategy.log",
+        "path": "/data/logs/alpha",
+        "name": "alpha.log",
         "clear": true,
         "backup_count": 5
     }
