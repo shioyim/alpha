@@ -65,8 +65,8 @@ class Starter:
         """Initialize logger."""
         console = config.log.get("console", True)
         level = config.log.get("level", "DEBUG")
-        path = config.log.get("path", "/tmp/logs/Quant")
-        name = config.log.get("name", "quant.log")
+        path = config.log.get("path", "/tmp/logs/Alpha")
+        name = config.log.get("name", "alpha.log")
         clear = config.log.get("clear", False)
         backup_count = config.log.get("backup_count", 0)
         if console:
